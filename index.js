@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:false}))
 app.use(express.json())
 
 app.get('/', (req, res) =>{
-    res.send('Fabien in the place')
+    res.send('Cyndi in the place')
 })
 
 app.use('/Products', router)
